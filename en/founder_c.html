@@ -53,6 +53,10 @@
             <h2 style="text-align: center; font-size: 2.2em; margin-bottom: 20px;">Your Application (Career)</h2>
             
             <form id="contact-form" action="https://formspree.io/f/xwpwyvlv" method="POST">
+                
+                <!-- RIGA AGGIUNTA PER OGGETTO EMAIL CON TAG LINGUA -->
+                <input type="hidden" name="_subject" value="[EN] New Founder C Application - Career">
+
                 <div class="form-grid">
                     <div class="form-group">
                         <label for="nome">Your Name</label>
@@ -79,7 +83,7 @@
                     <textarea id="sfida" name="sfida" rows="3" placeholder="e.g., Change jobs, get a promotion, acquire new AI skills..."></textarea>
                 </div>
 
-                <!-- ***** CORREZIONE QUI ***** -->
+                <!-- ***** CORREZIONE ID DUPLICATO ***** -->
                 <div class="form-group">
                     <label for="sfida_ai">Do you see AI as more of a danger or an opportunity?</label> <!-- 'for' corretto -->
                     <textarea id="sfida_ai" name="sfida_ai" rows="3" placeholder="e.g., A threat to my role, an opportunity to grow..."></textarea> <!-- 'id' e 'name' corretti -->
